@@ -1,0 +1,176 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <title>서비스 도입 문의</title>
+</head>
+
+<body style=" margin:0; padding:0;">
+    <form method="post" action="#">
+        <div align="center">
+            <table cellpadding="0" cellspacing="0" border="0" width="700" bgcolor="#fbfbfb"
+                style=" border-collapse: collapse; border-radius: 30px; border-color: #e8e8e8; box-shadow: 0 12px 44px 0 #3B4A7D1f;  font-family: 'Noto Sans KR', sans-serif; table-layout: fixed; ">
+                <tr>
+                    <td style="padding: 0;">
+                        <a href="https://ibb.co/N6sgKJ0"><img src="https://i.ibb.co/Rp9GcsX/banner-img-2x.png"
+                                alt="banner-img-2x" border="0" style="display: block; width: 100%;"></a>
+                    </td>
+                </tr>
+                <td style="padding-left: 128px; padding-right: 128px;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="444" align="center"
+                        style="border-collapse: collapse; table-layout: fixed;">
+                        <tr>
+                            <td style="padding-top: 40px; font-size: 20px; padding-bottom: 13px; font-weight: 700;">
+                                회사명을 알려주세요 * (필수)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 25px; ">
+                                <input type="text" id="companyName" placeholder="Ex ) 유밥" required
+                                    style=" height: 40px; padding-left: 20px;border-radius: 5px; border: 1px solid #e8e8e8; width: 444px; box-sizing: border-box;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; padding-bottom: 13px;font-weight: 700;">
+                                성함이 어떻게 되시나요? * (필수)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 25px; ">
+                                <input type="text" id="userName" placeholder="Ex ) 김유밥" required
+                                    style=" height: 40px; padding-left: 20px;border-radius: 5px; border: 1px solid #e8e8e8; width: 444px; box-sizing: border-box;">
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; padding-bottom: 13px;font-weight: 700;">
+                                어떤 부서에서 근무하고 계신가요?</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 25px; ">
+                                <input type="text" id="department" placeholder="Ex ) 인재개발팀"
+                                    style=" height: 40px; padding-left: 20px;border-radius: 5px; border: 1px solid #e8e8e8; width:444px; box-sizing: border-box;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; padding-bottom: 13px;font-weight: 700;">
+                                연락처를 남겨주세요. * (필수)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 25px; ">
+                                <input type="text" id="userNumber" placeholder="Ex ) 010-1234-5678" maxlength="13"
+                                    required
+                                    style=" height: 40px; padding-left: 20px;border-radius: 5px; border: 1px solid #e8e8e8; width: 444px; box-sizing: border-box;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; padding-bottom: 13px; font-weight: 700;">
+                                구성원의 규모는 얼마나 되시나요? * (필수)</td>
+                        </tr>
+                        <tr>
+                            <td style=" padding-bottom: 25px;">
+                                <select name="companyScale" required id="companyScale" class="companyScale" style="width: 100%;
+                                height: 40px;
+                                color: #757575;
+                                 box-sizing: border-box;
+                               padding-left: 20px;
+                                border: 1px solid #e8e8e8;
+                                font-family: inherit;  
+                                background: url(https://i.ibb.co/3C1fGk0/Vector-1.png) no-repeat 95% 50%; 
+                                border-radius: 5px; 
+                                -webkit-appearance: none; 
+                                -moz-appearance: none;
+                                appearance: none;
+                                cursor: pointer;
+                                background-color: #ffffff;">
+                                    <option label="구성원의 규모를 선택해 주세요." value="">구성원의 규모를 선택해 주세요.
+                                    </option>
+                                    <option value="~50인 이하">~50인 이하</option>
+                                    <option value="51인 ~ 150인 이하">51인 ~ 150인 이하</option>
+                                    <option value="151인 이상">151인 이상</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; padding-bottom: 13px; font-weight: 700;">
+                                문의를 남겨주세요. * (필수)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 40px;">
+                                <textarea name="inquiry-text" id="inquiry-text" cols="60" rows="10"
+                                    placeholder="Ex ) 연간 구독 시 콘텐츠를 무제한으로 들을 수 있나요?" required
+                                    style=" padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; border-radius: 5px; border: 1px solid #e8e8e8; width: 444px; height: 100px; box-sizing: border-box;"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=" padding-bottom: 40px;">
+                                <hr style="border: 1px dashed #e8e8e8;">
+                            </td>
+                        </tr> <!-- 경계선 -->
+                        <tr>
+                            <td style="font-size: 20px; padding-bottom: 13px; font-weight: 700;">
+                                개인정보 수집 및 이용 동의</td>
+                        </tr>
+                        <tr>
+                            <label for="chk-1" class="agree-check">
+                                <td>
+                                    <input type="checkbox" value="개인정보 수집 및 이용에 동의합니다. (필수)" name="chk-1" required
+                                        id="chk-1" style="cursor:pointer ;">
+                                    <span style="font-size: 15px;">개인정보 수집 및 이용에 동의합니다. (필수)</span>
+                                </td>
+                            </label>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 15px;">
+                                <label for="chk-2" class="agree-check">
+                                    <input type="checkbox" value="유밥 관련 프로모션 및 마케팅 정보 수신에 동의합니다. (선택)" name="chk-2"
+                                        id="chk-2" style="cursor:pointer ;"><span style="font-size: 15px;"> ㈜유밥 관련 프로모션
+                                        및
+                                        마케팅 정보 수신에 동의합니다. (선택)</span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style=" padding-bottom: 5px; font-size: 11px; font-weight: 400; line-height: 15px; color: #c8c5cc;">
+                                * 개인정보 수집 및 제공 항목 : 회사명, 이름, 부서명, 휴대폰번호, 메일주소</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style=" padding-bottom: 5px; font-size: 11px; font-weight: 400; line-height: 15px; color: #c8c5cc;">
+                                * 개인정보를 제공받는 자 : ㈜유밥</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style=" padding-bottom: 5px; font-size: 11px; font-weight: 400; line-height: 15px; color: #c8c5cc;">
+                                * 개인정보 수집 이용 목적 : 상품 혜택 및 신청 절차 안내, 이벤트 및 광고성 정보 제공, 고객 문의 처리</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style=" padding-bottom: 5px; font-size: 11px; font-weight: 400; line-height: 15px; color: #c8c5cc;">
+                                * 보유 및 이용기간 : 마케팅 수신 동의 철회 전까지</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding-bottom: 5px; font-size: 11px; font-weight: 400; line-height: 15px; color: #c8c5cc;">
+                                * 해당 내용에 대한 개인정보 수집 및 이용에 대한 동의를 거부하실 수 있으며,
+                                거부 시에도 유밥 서비스를 이용하실 수 있으나, 동의를 거부한 경우 각종 소식 및 이벤트 참여에 제한이
+                                있을 수 있습니다.</td>
+                        </tr>
+                        <tr>
+                            <td style=" padding-top: 50px; padding-bottom: 80px;">
+                                <button type="submit" value="submit"
+                                    style="cursor: pointer; width: 444px; height: 70px; border-style: none; border-radius: 20px;  padding: 0; background: #eb4236;">
+                                    <span
+                                        style="font-weight: 700; font-size: 20px; color: #ffffff; font-family: 'Noto Sans KR', sans-serif; ">
+                                        서비스 도입 문의하기 </span>
+                                </button>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+                <!-- </tbody> -->
+            </table>
+        </div>
+    </form>
+</body>
